@@ -75,9 +75,9 @@ def contar_vecinos(tablero: list[list[bool]], fila: int, col: int) -> int:
             if not(i == 0 and j == 0):
                 f = i+fila
                 c = j+col
-                if f >= len(tablero[0]):
+                if f >= len(tablero):
                     f = f%len(tablero)
-                if c >= len(tablero):
+                if c >= len(tablero[0]):
                     c = c%len(tablero[0])
                 if tablero[f][c] == True:
                     num_vivos +=1
