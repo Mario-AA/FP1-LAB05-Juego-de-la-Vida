@@ -70,11 +70,11 @@ def test_calcular_siguiente_generacion():
     ]
 
 # Descomentar para ejecutar los tests
-test_crear_tablero()
+#test_crear_tablero()
 #test_crear_tablero_aleatorio()
 #test_insertar_patron()
 #test_contar_vecinos()
-#test_calcular_siguiente_generacion()
+test_calcular_siguiente_generacion()
 print("Todos los tests pasaron correctamente.")
 
     
